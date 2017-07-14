@@ -30,6 +30,8 @@ export class HomeComponent implements OnInit {
    */
   ngOnInit() {
     this.getNames();
+    this.getCate();
+    //$( "#ranga" ).show();
   }
 
   /**
@@ -43,7 +45,13 @@ export class HomeComponent implements OnInit {
       );
   }
 
-  
+   getCate() {
+    this.nameListService.getCate()
+      .subscribe(
+        cate => this.cate = cate,
+        error => this.errorMessage = <any>error
+      );
+  }
 
   /**
    * Pushes a new name onto the names array
