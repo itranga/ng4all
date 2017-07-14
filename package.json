@@ -1,9 +1,9 @@
 {
-  "name": "angular-seed",
+  "name": "g4all",
   "version": "1.0.0",
-  "description": "Modular starter project for Angular 2 (and beyond) with statically typed build and AoT compilation",
+  "description": "Extensible, reliable, modular, PWA ready starter project for Angular (4 and beyond) with statically typed build and AoT compilation with Jquery and Bootstrap support",
   "repository": {
-    "url": "https://github.com/mgechev/angular-seed"
+    "url": "https://github.com/itranga/ng4all"
   },
   "scripts": {
     "build.dev": "gulp build.dev --color --env-config dev",
