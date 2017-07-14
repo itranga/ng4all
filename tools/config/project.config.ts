@@ -23,13 +23,11 @@ export class ProjectConfig extends SeedConfig {
     this.NPM_DEPENDENCIES = [
       ...this.NPM_DEPENDENCIES,
        {src: 'jquery/dist/jquery.min.js', inject: 'libs'},
-       {src: 'bootstrap/dist/js/bootstrap.min.js', inject: 'libs'},
     ];
 
     // Add `local` third-party libraries to be injected/bundled.
     this.APP_ASSETS = [
-      // {src: `${this.APP_SRC}/your-path-to-lib/libs/jquery-ui.js`, inject: true, vendor: false}
-      // {src: `${this.CSS_SRC}/path-to-lib/test-lib.css`, inject: true, vendor: false},
+       {src: `${this.APP_SRC}/bower_components/bootstrap/dist/js/bootstrap.min.js`, inject: true, vendor: false},
     ];
 
     this.ROLLUP_INCLUDE_DIR = [
