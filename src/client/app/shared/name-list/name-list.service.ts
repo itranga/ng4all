@@ -29,11 +29,7 @@ export class NameListService {
                     .catch(this.handleError);
   }
 
-   getCate(): Observable<string[]> {
-    return this.http.get('https://newsapi.org/v1/sources')
-                    .map((res: Response) => res.json())
-                    .catch(this.handleError);
-  }
+   
 
   /**
     * Handle HTTP error
