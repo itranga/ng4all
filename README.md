@@ -146,31 +146,6 @@ $ docker-compose -f docker-compose.production.yml up -d angular-seed-nginx  # St
 
 Now open your browser at http://localhost:5555
 
-# Table of Contents
-
-- [Introduction](#introduction)
-- [How to start](#how-to-start)
-- [How to start with Aot](#how-to-start-with-aot-compilation)
-- [Tree-shaking with Rollup](#tree-shaking-with-rollup)
-- [Dockerization](#dockerization)
-  + [How to build and start the dockerized version of the application](#how-to-build-and-start-the-dockerized-version-of-the-application)
-  + [Development build and deployment](#development-build-and-deployment)
-  + [Production build and deployment](#production-build-and-deployment)
-- [Table of Content](#table-of-content)
-- [Configuration](#configuration)
-- [Environment Configuration](#environment-configuration)
-- [Tools documentation](#tools-documentation)
-- [How to extend?](#how-to-extend)
-- [Running tests](#running-tests)
-- [Contributing](#contributing)
-- [Advanced Seed Option](#advanced-seed-option)
-- [Examples](#examples)
-- [Directory Structure](#directory-structure)
-- [Contributors](#contributors)
-  - [Wiki Contributors](#wiki-contributors)
-- [Change Log](#change-log)
-- [License](#license)
-
 # Configuration
 
 Default application server configuration
